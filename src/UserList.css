@@ -1,0 +1,41 @@
+.usersList form {
+  max-width: 660px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
+}
+.usersList form input,
+.usersList form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.usersList form button {
+  padding: 5px 15px;
+  background-color: lightskyblue;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.usersList form button:hover {
+  opacity: 0.8;
+}
+
+.usersList .list {
+  max-width: 600px;
+  border: 1px solid black;
+  padding:30px;
+  margin: auto;
+}
+
+.usersList .list .userItem {
+  border: 1px solid green;
+
+}
+
+.usersList .list .userItem:hover{
+  background-color: red;
+}
